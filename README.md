@@ -35,7 +35,7 @@ bilibili/Github/猫啃网：yzdnn
 
 QQ号：2035714850
 
-如果想反馈缺字误字，可以在[这里](https://github.com/yzdnn/RenOuFangSong-16/issues/1)提交。
+如果想反馈缺字误字，可以在[这里](https://github.com/yzdnn/RenOuFangSong-16/issues/2)提交。
 
 
 
