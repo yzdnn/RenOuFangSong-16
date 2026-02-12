@@ -737,3 +737,4 @@ feature vert { # Vertical Writing
 table GDEF {
     GlyphClassDef @BASE,,,;
 } GDEF;
+
