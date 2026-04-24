@@ -55,17 +55,17 @@ fontforge不能处理opentype特性（导出字体后opentype特性会全部消�
 将“选中的字形”改为“所有字形”，点击确定。
 9. FontForge - 导出：
 按Ctrl+Shift+G生成字体。
-主要导出：格式选择“TrueType”，输出选择“TTF”。导出最终的.ttf（此文件已包含规整的内嵌位图）。
+主要导出：格式选择“TrueType”，输出选择“TTF/OTF”。导出最终的.ttf（此文件已包含规整的内嵌位图）。
 导出仓库用的BDF：在同一对话框，格式选择“无轮廓字体”，输出选择“BDF”，可导出一份.bdf，将这份.bdf放在仓库的Source文件夹中。
 阶段五：清理元数据并注入OpenType特性
 10. FontCreator - 清理属性：
-打开FontForge导出的.ttf。
+在FontCreator中打开FontForge导出的.ttf。
 点击菜单：格式 -> 字体属性。
 依次进入“字体”、“轴”、“母版”、“实例”四个标签页，取消勾选其中所有的复选框。此步骤为防止FontCreator用预设信息覆盖自定义字体信息。
 点击确定。
 11. FontCreator - 添加特性：
 点击菜单：格式 -> OpenType设计器 -> 代码编辑器。
-全选编辑器中的现有内容，删除，然后将“code.txt”文件中的完整代码粘贴进去。
+全选编辑器中的现有内容，删除，然后将“OpenType Layout feature definitions.txt”文件中的完整代码粘贴进去。
 保存代码，关闭OpenType设计器。
 阶段六：最终导出
 12. FontCreator - 完成：
