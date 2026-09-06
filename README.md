@@ -29,6 +29,8 @@
 
 具体条款内容请查看OFL.txt。
 
+本字体的保留名称为「人偶仿宋 16」「RenOuFangSong 16」，发布修改后的字体改名时不得使用以上保留名称。
+
 **～联络作者～**
 
 bilibili/Github/猫啃网：yzdnn
